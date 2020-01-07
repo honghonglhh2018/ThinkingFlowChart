@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T06:09:05.447Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="g84kEJa8hVz-sXKJLsZ-" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-07T06:13:07.988Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="iIUMEoMLj3p-XfrjPNem" version="12.4.9" type="github">
   <diagram id="SOJMbYDi3jxJAX-_P0bx" name="第 1 页">
     <mxGraphModel dx="2146" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,13 +80,11 @@
         <mxCell id="DOr79SxjIFYAmsH0iGoC-27" value="失败次数是否超过&lt;br&gt;指定次数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="387" y="797.5" width="133" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-28" target="DOr79SxjIFYAmsH0iGoC-51">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="500" as="targetPoint"/>
-          </mxGeometry>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-28" target="DOr79SxjIFYAmsH0iGoC-51">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-28" value="&lt;span style=&quot;white-space: normal&quot;&gt;从本地配置读取&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;XM_URL&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;AD_URL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="410" width="120" height="60" as="geometry"/>
+          <mxGeometry x="-10" y="390" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-31" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="1244" width="120" height="60" as="geometry"/>
