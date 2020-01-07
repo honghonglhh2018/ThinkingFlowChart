@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T03:15:06.184Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="6ldz7veub4CVqaxN0P1b" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-07T03:36:59.454Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="Q2bWEUJ42OrwsDXaqmpQ" version="12.4.9" type="github">
   <diagram id="SOJMbYDi3jxJAX-_P0bx" name="第 1 页">
     <mxGraphModel dx="2146" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
         <mxCell id="DOr79SxjIFYAmsH0iGoC-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-6" target="DOr79SxjIFYAmsH0iGoC-14">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-6" value="&lt;span style=&quot;white-space: normal&quot;&gt;检测网络&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;direction=east;" vertex="1" parent="1">
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-6" value="&lt;span style=&quot;white-space: normal&quot;&gt;检测网络&lt;br&gt;初始化Api&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;direction=east;" vertex="1" parent="1">
           <mxGeometry x="201" y="153" width="138" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-11">
@@ -59,27 +59,20 @@
         <mxCell id="DOr79SxjIFYAmsH0iGoC-14" value="从Server_Url&lt;br&gt;读取XM_URL和&lt;br&gt;AD_Url" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="195" y="290" width="150" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-16" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="DOr79SxjIFYAmsH0iGoC-24">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="550" as="sourcePoint"/>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-24" target="DOr79SxjIFYAmsH0iGoC-27">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-24">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="729.5" as="targetPoint"/>
-          </mxGeometry>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-24" target="DOr79SxjIFYAmsH0iGoC-53">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-24" value="登录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="195" y="619.5" width="150" height="76" as="geometry"/>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-24" value="登录&lt;br&gt;(更新用户信息/更新API)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="789.5" width="150" height="76" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-25" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="590" as="targetPoint"/>
+            <mxPoint x="270" y="760" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="453" y="589.5"/>
+              <mxPoint x="453" y="759.5"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -87,7 +80,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-27" value="失败次数是否超过&lt;br&gt;指定次数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="387" y="627.5" width="133" height="60" as="geometry"/>
+          <mxGeometry x="387" y="797.5" width="133" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-28" target="DOr79SxjIFYAmsH0iGoC-51">
           <mxGeometry relative="1" as="geometry">
@@ -99,14 +92,14 @@
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="823.5" as="targetPoint"/>
+            <mxPoint x="270" y="1103.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-30" value="&lt;span style=&quot;white-space: normal&quot;&gt;加载Launcher&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="729.5" width="120" height="60" as="geometry"/>
+          <mxGeometry x="210" y="1020" width="120" height="49.5" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-31" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="823.5" width="120" height="60" as="geometry"/>
+          <mxGeometry x="210" y="1103.5" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-32" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="26" width="120" height="60" as="geometry"/>
@@ -114,8 +107,7 @@
         <mxCell id="DOr79SxjIFYAmsH0iGoC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-34" target="DOr79SxjIFYAmsH0iGoC-31">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="960" y="860"/>
-              <mxPoint x="330" y="860"/>
+              <mxPoint x="960" y="1134"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -124,41 +116,108 @@
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="658" as="targetPoint"/>
+            <mxPoint x="960" y="888" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-36" value="登录失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="627.5" width="120" height="60" as="geometry"/>
+          <mxGeometry x="600" y="797.5" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-51" target="DOr79SxjIFYAmsH0iGoC-53">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-58" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="DOr79SxjIFYAmsH0iGoC-56">
-          <mxGeometry x="-0.0581" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-51" value="7天内是否登录过" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="450" width="80" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-53" target="DOr79SxjIFYAmsH0iGoC-30">
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-62" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-51" target="DOr79SxjIFYAmsH0iGoC-53">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="50" y="760"/>
+              <mxPoint x="50" y="480"/>
+              <mxPoint x="50" y="960"/>
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-89" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-51" target="DOr79SxjIFYAmsH0iGoC-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="594"/>
+              <mxPoint x="270" y="594"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-51" value="7天内是否登录过" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="440" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-53" target="DOr79SxjIFYAmsH0iGoC-30">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-53" value="登录至主页，更新登录信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="640" width="120" height="60" as="geometry"/>
+          <mxGeometry x="210" y="930" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-54" value="账号被限制，依然能登录上" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="700" width="80" height="80" as="geometry"/>
+          <mxGeometry x="80" y="1010" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-55" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-70" y="720" as="sourcePoint"/>
-            <mxPoint x="-20" y="670" as="targetPoint"/>
+            <mxPoint x="140" y="1030" as="sourcePoint"/>
+            <mxPoint x="190" y="980" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-76" target="DOr79SxjIFYAmsH0iGoC-79">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-76" target="DOr79SxjIFYAmsH0iGoC-24">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-76" value="访问服务器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="594" width="150" height="76" as="geometry"/>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-78" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600.4285714285716" y="631.8571428571429" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-79" target="DOr79SxjIFYAmsH0iGoC-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="453" y="570"/>
+              <mxPoint x="270" y="570"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-94" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="DOr79SxjIFYAmsH0iGoC-93">
+          <mxGeometry x="-0.1441" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-79" value="失败次数是否超过指定次数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394.5" y="599" width="117" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-80" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="625" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="760" y="632"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-81" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-82" target="DOr79SxjIFYAmsH0iGoC-86">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-82" value="服务器地址是本地配置？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="596" y="592" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="625" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="960" y="632"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-84" value="显示非台基网络，&lt;br&gt;登录失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="602" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="720" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-86" value="服务器无响应，&lt;br&gt;请稍候60秒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="766" y="690" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
