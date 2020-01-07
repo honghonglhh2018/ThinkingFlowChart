@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T03:36:59.454Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="Q2bWEUJ42OrwsDXaqmpQ" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-07T03:58:35.792Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="zUVAsHxjdOf30MiuZ89d" version="12.4.9" type="github">
   <diagram id="SOJMbYDi3jxJAX-_P0bx" name="第 1 页">
     <mxGraphModel dx="2146" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,10 +51,8 @@
             <mxPoint x="120" y="430" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="470" as="targetPoint"/>
-          </mxGeometry>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-98" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-14" target="DOr79SxjIFYAmsH0iGoC-51">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-14" value="从Server_Url&lt;br&gt;读取XM_URL和&lt;br&gt;AD_Url" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="195" y="290" width="150" height="80" as="geometry"/>
@@ -90,16 +88,14 @@
         <mxCell id="DOr79SxjIFYAmsH0iGoC-28" value="&lt;span style=&quot;white-space: normal&quot;&gt;从本地配置读取&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;XM_URL&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;AD_URL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="410" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-30">
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="1103.5" as="targetPoint"/>
+            <mxPoint x="270" y="1174" as="targetPoint"/>
+            <mxPoint x="270" y="1140" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-30" value="&lt;span style=&quot;white-space: normal&quot;&gt;加载Launcher&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1020" width="120" height="49.5" as="geometry"/>
-        </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-31" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1103.5" width="120" height="60" as="geometry"/>
+          <mxGeometry x="210" y="1174" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-32" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="26" width="120" height="60" as="geometry"/>
@@ -141,8 +137,10 @@
         <mxCell id="DOr79SxjIFYAmsH0iGoC-51" value="7天内是否登录过" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="440" width="80" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="DOr79SxjIFYAmsH0iGoC-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-53" target="DOr79SxjIFYAmsH0iGoC-30">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOr79SxjIFYAmsH0iGoC-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1020" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-53" value="登录至主页，更新登录信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="930" width="120" height="60" as="geometry"/>
@@ -218,6 +216,9 @@
         </mxCell>
         <mxCell id="DOr79SxjIFYAmsH0iGoC-86" value="服务器无响应，&lt;br&gt;请稍候60秒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="766" y="690" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="DOr79SxjIFYAmsH0iGoC-100" value="服务器获取数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1020" width="80" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
