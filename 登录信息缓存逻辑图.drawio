@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-08T07:57:36.582Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="S_NnUiopvqhnn3qHkdj4" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-08T08:39:40.583Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="XY8XkqKN7Tz-DdxNwnOc" version="12.4.9" type="github">
   <diagram id="IT9PlKb_fLVVvK6vBwHm" name="第 1 页">
     <mxGraphModel dx="1316" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,8 @@
         <mxCell id="9EetQIqJaaE5oWbVA_zR-23" value="账号：&lt;br&gt;1：本地server（没调用）&lt;br&gt;2：更新密码时候用到用户账号-更新完登录&lt;br&gt;3：密码界面显示账户（XMPasswordActivity没跳转）&lt;br&gt;4:Login登录界面-显示账户&lt;br&gt;5：" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="515" y="814" width="215" height="106" as="geometry"/>
         </mxCell>
-        <mxCell id="9EetQIqJaaE5oWbVA_zR-24" value="token:&lt;br&gt;2个jar包实质上都没有调用，只是传进去而已" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="805" y="814" width="120" height="60" as="geometry"/>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-24" value="token:&lt;br&gt;2个jar包实质上都没有调用，只是传进去而已&lt;br&gt;&lt;br&gt;访问服务器需要上传token-所以需要缓存&lt;br&gt;conn.setRequestProperty(&quot;X-token&quot;, XMediaApiUtil.getUserToken());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="814" width="210" height="150" as="geometry"/>
         </mxCell>
         <mxCell id="9EetQIqJaaE5oWbVA_zR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9EetQIqJaaE5oWbVA_zR-25" target="9EetQIqJaaE5oWbVA_zR-17">
           <mxGeometry relative="1" as="geometry"/>
