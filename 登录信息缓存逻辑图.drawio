@@ -1,23 +1,68 @@
-<mxfile host="www.draw.io" modified="2020-01-08T06:30:26.255Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="mwZsKd8ScEH7lqH_9OJb" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-08T07:09:09.207Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="Vz7um0TJhs2jqEi6SGJJ" version="12.4.9" type="github">
   <diagram id="IT9PlKb_fLVVvK6vBwHm" name="第 1 页">
     <mxGraphModel dx="1316" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9EetQIqJaaE5oWbVA_zR-1" target="9EetQIqJaaE5oWbVA_zR-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="9EetQIqJaaE5oWbVA_zR-1" value="CleanCache&lt;br&gt;清除缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9EetQIqJaaE5oWbVA_zR-2" target="9EetQIqJaaE5oWbVA_zR-6">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="9EetQIqJaaE5oWbVA_zR-2" value="登录成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="410" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9EetQIqJaaE5oWbVA_zR-3" target="9EetQIqJaaE5oWbVA_zR-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="9EetQIqJaaE5oWbVA_zR-3" value="修改密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9EetQIqJaaE5oWbVA_zR-4" target="9EetQIqJaaE5oWbVA_zR-12">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="9EetQIqJaaE5oWbVA_zR-4" value="个人主页加载数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="420" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="9EetQIqJaaE5oWbVA_zR-5" value="更改API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="554" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-6" value="1：服务器传下来的数据-&lt;br&gt;即使是空的，依然会覆盖&lt;br&gt;2：所有数据都存储到数据库&lt;br&gt;3：将本地的mUserName和mPassword存储到数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="395" width="240" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-8" value="1：除了地区码，其他都设置空" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-10" value="1：会先部分数据的数据库置空&lt;br&gt;2：然后再进行修改密码请求:&lt;br&gt;用用户填写的新密码进行存储到数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="70" width="170" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-12" value="服务器加载数据&lt;br&gt;缓存中加载数据&lt;br&gt;将缓存的数据再存储到数据库中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="420" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9EetQIqJaaE5oWbVA_zR-14" target="9EetQIqJaaE5oWbVA_zR-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-14" value="注册" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="300" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-15" value="1：将用户手动填写的账号的密码以及相关数据进行注册&lt;br&gt;userObtainer.register(mUsername, mPassword, mAreaCode, mNickame, null, mPhone, mEmail, null);&lt;br&gt;2：再进行登录操作-存储数据到数据库&lt;br&gt;2：再将相关信息存储到数据库中&lt;br&gt;&lt;div&gt;XMSharedUtil sInstance = XMSharedUtil.newInstance();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;sInstance.setUserName(mUsername);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;sInstance.setUserPassword(mPassword);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="281.25" width="501" height="97.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9EetQIqJaaE5oWbVA_zR-17" target="9EetQIqJaaE5oWbVA_zR-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-17" value="&lt;div&gt;mUserName = MAC;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt;mPassword = &quot;TV&quot; + mUserName + &quot;HATV&quot;;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="307.5" width="320" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9EetQIqJaaE5oWbVA_zR-20" target="9EetQIqJaaE5oWbVA_zR-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-20" value="并没有关联到该页面，所以可以忽略该页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="130" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
