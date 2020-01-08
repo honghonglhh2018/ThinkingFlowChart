@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-08T07:09:09.207Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="Vz7um0TJhs2jqEi6SGJJ" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-08T07:25:52.870Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="JR5mXtOqJwfMqof0bWZ-" version="12.4.9" type="github">
   <diagram id="IT9PlKb_fLVVvK6vBwHm" name="第 1 页">
     <mxGraphModel dx="1316" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,8 +40,8 @@
         <mxCell id="9EetQIqJaaE5oWbVA_zR-10" value="1：会先部分数据的数据库置空&lt;br&gt;2：然后再进行修改密码请求:&lt;br&gt;用用户填写的新密码进行存储到数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="635" y="70" width="170" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="9EetQIqJaaE5oWbVA_zR-12" value="服务器加载数据&lt;br&gt;缓存中加载数据&lt;br&gt;将缓存的数据再存储到数据库中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="420" width="120" height="60" as="geometry"/>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-12" value="服务器加载数据&lt;br&gt;缓存中加载数据&lt;br&gt;将缓存的数据再存储到数据库中&lt;br&gt;&lt;br&gt;2：只有token和账号密码没有存储到数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="405" width="223" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="9EetQIqJaaE5oWbVA_zR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9EetQIqJaaE5oWbVA_zR-14" target="9EetQIqJaaE5oWbVA_zR-15">
           <mxGeometry relative="1" as="geometry"/>
