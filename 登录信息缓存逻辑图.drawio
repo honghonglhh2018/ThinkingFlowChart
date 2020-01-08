@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-08T07:25:52.870Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="JR5mXtOqJwfMqof0bWZ-" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-08T07:26:41.907Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="e0UhhKjEiQFnxXO4s6Aj" version="12.4.9" type="github">
   <diagram id="IT9PlKb_fLVVvK6vBwHm" name="第 1 页">
     <mxGraphModel dx="1316" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
         <mxCell id="9EetQIqJaaE5oWbVA_zR-14" value="注册" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="300" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="9EetQIqJaaE5oWbVA_zR-15" value="1：将用户手动填写的账号的密码以及相关数据进行注册&lt;br&gt;userObtainer.register(mUsername, mPassword, mAreaCode, mNickame, null, mPhone, mEmail, null);&lt;br&gt;2：再进行登录操作-存储数据到数据库&lt;br&gt;2：再将相关信息存储到数据库中&lt;br&gt;&lt;div&gt;XMSharedUtil sInstance = XMSharedUtil.newInstance();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;sInstance.setUserName(mUsername);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;sInstance.setUserPassword(mPassword);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="281.25" width="501" height="97.5" as="geometry"/>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-15" value="1：将用户手动填写的账号的密码以及相关数据进行注册&lt;br&gt;userObtainer.register(mUsername, mPassword, mAreaCode, mNickame, null, mPhone, mEmail, null);&lt;br&gt;2：再进行登录操作-存储数据到数据库-登录成功，则会存储数据-&lt;br&gt;2：再将相关信息存储到数据库中&lt;br&gt;&lt;div&gt;XMSharedUtil sInstance = XMSharedUtil.newInstance();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;sInstance.setUserName(mUsername);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;sInstance.setUserPassword(mPassword);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="270.63" width="491" height="118.75" as="geometry"/>
         </mxCell>
         <mxCell id="9EetQIqJaaE5oWbVA_zR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9EetQIqJaaE5oWbVA_zR-17" target="9EetQIqJaaE5oWbVA_zR-2">
           <mxGeometry relative="1" as="geometry"/>
