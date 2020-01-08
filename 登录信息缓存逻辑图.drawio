@@ -1,1 +1,25 @@
-<mxfile host="www.draw.io" modified="2020-01-08T06:21:36.640Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" version="12.4.9" etag="jqXod6iM-gs4BhyIDyR8" type="github"><diagram id="IT9PlKb_fLVVvK6vBwHm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-08T06:30:26.255Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="mwZsKd8ScEH7lqH_9OJb" version="12.4.9" type="github">
+  <diagram id="IT9PlKb_fLVVvK6vBwHm" name="第 1 页">
+    <mxGraphModel dx="1316" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-1" value="CleanCache&lt;br&gt;清除缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-2" value="登录成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="410" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-3" value="修改密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-4" value="个人主页加载数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="420" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-5" value="更改API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="554" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
