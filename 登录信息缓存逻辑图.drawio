@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-08T07:26:41.907Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="e0UhhKjEiQFnxXO4s6Aj" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-08T07:35:18.594Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="QkiYseK9ya8vjyR7-7Ks" version="12.4.9" type="github">
   <diagram id="IT9PlKb_fLVVvK6vBwHm" name="第 1 页">
     <mxGraphModel dx="1316" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,12 @@
         </mxCell>
         <mxCell id="9EetQIqJaaE5oWbVA_zR-20" value="并没有关联到该页面，所以可以忽略该页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="130" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-22" value="密码&lt;br&gt;1：修改密码时候旧密码和新密码的判断&lt;br&gt;2：登录界面的密码显示&lt;br&gt;3：写到本地server文件:（没调用）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="799" width="120" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="9EetQIqJaaE5oWbVA_zR-23" value="账号：&lt;br&gt;1：本地server（没调用）&lt;br&gt;2：更新密码时候用到用户账号-更新完登录&lt;br&gt;3：密码界面显示账户（XMPasswordActivity没跳转）&lt;br&gt;4:Login登录界面-显示账户&lt;br&gt;5：" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="814" width="215" height="106" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
