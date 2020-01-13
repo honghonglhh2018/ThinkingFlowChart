@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-13T10:19:08.907Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="kbBsGk3k6I6kiHdO27DQ" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-13T10:29:43.467Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="lSA0pV9nZZgfV-laBBRc" version="12.5.1" type="github">
   <diagram id="6guljXhZOZYRVNvfO9t_" name="第 1 页">
     <mxGraphModel dx="1298" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,6 +76,11 @@
             <mxPoint x="210" y="960" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
+        <mxCell id="vs3mQmGJEYI14M0S7p_8-67" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="vs3mQmGJEYI14M0S7p_8-26">
+          <mxGeometry x="-0.2018" y="3" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vs3mQmGJEYI14M0S7p_8-21" value="mIsInitByCache&lt;br&gt;菜单初始化是否是根据缓存&lt;br&gt;默认为False" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="348" y="830" width="130" height="80" as="geometry"/>
         </mxCell>
@@ -146,8 +151,13 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vs3mQmGJEYI14M0S7p_8-53" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vs3mQmGJEYI14M0S7p_8-43" target="vs3mQmGJEYI14M0S7p_8-52">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="vs3mQmGJEYI14M0S7p_8-53" value="大于限制次数" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vs3mQmGJEYI14M0S7p_8-43" target="vs3mQmGJEYI14M0S7p_8-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="1060"/>
+              <mxPoint x="1010" y="1060"/>
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="vs3mQmGJEYI14M0S7p_8-43" value="尝试次数小于限制次数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="960" width="80" height="80" as="geometry"/>
