@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-13T10:38:43.695Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="AKT0krV9HKQVimVGZX27" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-14T07:10:04.213Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="JDzmXMx8yWEAk7M26QtA" version="12.5.1" type="github">
   <diagram id="SOJMbYDi3jxJAX-_P0bx" name="第 1 页">
-    <mxGraphModel dx="2125" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2143" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -262,6 +262,9 @@
         </mxCell>
         <mxCell id="RcBX6b7-uW88_snG2ltz-8" value="&lt;span style=&quot;white-space: normal&quot;&gt;7天内是否登录过?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="190" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="i2jERcYxDGy54o1eH_v--1" value="&lt;div&gt;if(!isEmptyMenuCache() &amp;amp;&amp;amp; netFlag&amp;gt;0){&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="250" height="70" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
