@@ -1,1 +1,43 @@
-<mxfile host="www.draw.io" modified="2020-02-06T08:36:00.871Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" version="12.6.5" etag="Jjdyjuh1jnN-d5uopbVj" type="github"><diagram id="7KHPSY4flnSHCGMYQCH0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-06T08:49:40.525Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="gx_79NDRhp23eLolzIsF" version="12.6.5" type="github">
+  <diagram id="7KHPSY4flnSHCGMYQCH0" name="第 1 页">
+    <mxGraphModel dx="1314" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8dZf9wYU1UPOxELS9qww-1" target="8dZf9wYU1UPOxELS9qww-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-1" value="ContentMovieStyleA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="180" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8dZf9wYU1UPOxELS9qww-2" target="8dZf9wYU1UPOxELS9qww-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-2" value="updateView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8dZf9wYU1UPOxELS9qww-4" target="8dZf9wYU1UPOxELS9qww-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-4" value="ArrayList&amp;lt;MenuRecommendInfo&amp;gt; recommend&lt;br&gt;&lt;div&gt;MenuRecommendInfo recommendItem = recommend.get(index);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;ArrayList&amp;lt;MenuRecommendContentInfo&amp;gt; rContent = recommend.get(index).rContent;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="420" width="295" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8dZf9wYU1UPOxELS9qww-6" target="8dZf9wYU1UPOxELS9qww-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-6" value="recommendItem.style.equals(XMediaConst.POSTER_STYLE_VER)&lt;br&gt;判断当前行是水平还是垂直" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="570" width="410" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8dZf9wYU1UPOxELS9qww-8" target="8dZf9wYU1UPOxELS9qww-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-8" value="mType = viewType;&lt;br&gt;直接根据这个属性来判断如何设置UI的长宽" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="700" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-12" value="根据该属性可以设置UI长宽与默认图片大小" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="830" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
