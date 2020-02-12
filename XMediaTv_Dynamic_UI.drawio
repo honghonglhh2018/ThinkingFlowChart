@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-12T08:12:40.886Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="Lc6I8fj8B1XSvFhSSt-l" version="12.6.7" type="github">
+<mxfile host="www.draw.io" modified="2020-02-12T09:04:35.551Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="rMwUuZXvEh-eot9YUNua" version="12.6.7" type="github">
   <diagram id="7KHPSY4flnSHCGMYQCH0" name="第 1 页">
     <mxGraphModel dx="2141" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,27 @@
         </mxCell>
         <mxCell id="YWf6NnoYRHDBoin_unOI-1" value="MenuRecommendInfo recommendItem&lt;br&gt;水平与垂直定义在一行菜单里" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="560" width="150" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWf6NnoYRHDBoin_unOI-3" target="YWf6NnoYRHDBoin_unOI-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-3" value="updateView(Object object)&lt;br&gt;绘制视图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="435" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWf6NnoYRHDBoin_unOI-4" target="YWf6NnoYRHDBoin_unOI-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-4" value="&lt;div&gt;MenuRecommendInfo recommendItem = recommend.get(index);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;ArrayList&amp;lt;MenuRecommendContentInfo&amp;gt; rContent = recommend.get(index).rContent;&lt;br&gt;VodHPRecGenerator generator一次性绘制一行内容&lt;br&gt;mContainer.addView(generator.generateView());&lt;br&gt;一行内容添加到容器当中&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="540" width="560" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWf6NnoYRHDBoin_unOI-6" target="YWf6NnoYRHDBoin_unOI-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-6" value="generateView绘制内容&lt;br&gt;initializeDescendant&lt;br&gt;&lt;div&gt;单独单独一个数据&lt;br&gt;View child = createContentView(mContents.get(index), index);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;mContainer.addView(child);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="690" width="300" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-8" value="createContentView&lt;br&gt;设置UI大小：getLayoutParams&lt;br&gt;&lt;br&gt;&lt;div&gt;加载海报与释放海报&lt;br&gt;loadImage&lt;br&gt;releasePoster&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="820" width="220" height="160" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
