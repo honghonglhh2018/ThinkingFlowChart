@@ -1,68 +1,120 @@
-<mxfile host="www.draw.io" modified="2020-02-12T09:04:35.551Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="rMwUuZXvEh-eot9YUNua" version="12.6.7" type="github">
+<mxfile host="www.draw.io" modified="2020-02-21T06:33:48.298Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="dAIVvz5iWJv46zE4Z85D" version="12.7.2" type="github">
   <diagram id="7KHPSY4flnSHCGMYQCH0" name="第 1 页">
     <mxGraphModel dx="2141" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
         <mxCell id="8dZf9wYU1UPOxELS9qww-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8dZf9wYU1UPOxELS9qww-1" target="8dZf9wYU1UPOxELS9qww-2" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8dZf9wYU1UPOxELS9qww-1" value="ContentMovieStyleA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="180" width="120" height="60" as="geometry"/>
+          <mxGeometry x="370" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8dZf9wYU1UPOxELS9qww-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8dZf9wYU1UPOxELS9qww-2" target="8dZf9wYU1UPOxELS9qww-4" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8dZf9wYU1UPOxELS9qww-2" value="updateView" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="290" width="120" height="60" as="geometry"/>
+          <mxGeometry x="370" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8dZf9wYU1UPOxELS9qww-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8dZf9wYU1UPOxELS9qww-4" target="8dZf9wYU1UPOxELS9qww-6" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8dZf9wYU1UPOxELS9qww-4" value="ArrayList&amp;lt;MenuRecommendInfo&amp;gt; recommend&lt;br&gt;&lt;div&gt;MenuRecommendInfo recommendItem = recommend.get(index);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;   &lt;/span&gt;ArrayList&amp;lt;MenuRecommendContentInfo&amp;gt; rContent = recommend.get(index).rContent;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="282.5" y="420" width="295" height="90" as="geometry"/>
+          <mxGeometry x="282.5" y="420" width="295" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8dZf9wYU1UPOxELS9qww-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8dZf9wYU1UPOxELS9qww-6" target="8dZf9wYU1UPOxELS9qww-8" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8dZf9wYU1UPOxELS9qww-6" value="recommendItem.style.equals(XMediaConst.POSTER_STYLE_VER)&lt;br&gt;判断当前行是水平还是垂直&lt;br&gt;&lt;div&gt;* @see XMediaConst#POSTER_STYLE_HORI&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt; * @see XMediaConst#POSTER_STYLE_VER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="225" y="570" width="410" height="60" as="geometry"/>
+        <mxCell id="8dZf9wYU1UPOxELS9qww-6" value="recommendItem.style.equals(XMediaConst.POSTER_STYLE_VER)&lt;br&gt;判断当前行是水平还是垂直&lt;br&gt;&lt;div&gt;* @see XMediaConst#POSTER_STYLE_HORI&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;  &lt;/span&gt; * @see XMediaConst#POSTER_STYLE_VER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="225" y="570" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8dZf9wYU1UPOxELS9qww-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8dZf9wYU1UPOxELS9qww-8" target="8dZf9wYU1UPOxELS9qww-12" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8dZf9wYU1UPOxELS9qww-8" value="mType = viewType;&lt;br&gt;直接根据这个属性来判断如何设置UI的长宽" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="700" width="120" height="60" as="geometry"/>
+          <mxGeometry x="370" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8dZf9wYU1UPOxELS9qww-12" value="根据该属性可以设置UI长宽与默认图片大小" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="830" width="120" height="60" as="geometry"/>
+          <mxGeometry x="370" y="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YWf6NnoYRHDBoin_unOI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWf6NnoYRHDBoin_unOI-1" target="8dZf9wYU1UPOxELS9qww-6">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YWf6NnoYRHDBoin_unOI-1" target="8dZf9wYU1UPOxELS9qww-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YWf6NnoYRHDBoin_unOI-1" value="MenuRecommendInfo recommendItem&lt;br&gt;水平与垂直定义在一行菜单里" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="560" width="150" height="80" as="geometry"/>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-1" value="MenuRecommendInfo recommendItem&lt;br&gt;水平与垂直定义在一行菜单里" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="560" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YWf6NnoYRHDBoin_unOI-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWf6NnoYRHDBoin_unOI-3" target="YWf6NnoYRHDBoin_unOI-4">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YWf6NnoYRHDBoin_unOI-3" target="YWf6NnoYRHDBoin_unOI-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YWf6NnoYRHDBoin_unOI-3" value="updateView(Object object)&lt;br&gt;绘制视图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="435" width="120" height="60" as="geometry"/>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-3" value="updateView(Object object)&lt;br&gt;绘制视图" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="435" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YWf6NnoYRHDBoin_unOI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWf6NnoYRHDBoin_unOI-4" target="YWf6NnoYRHDBoin_unOI-6">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YWf6NnoYRHDBoin_unOI-4" target="YWf6NnoYRHDBoin_unOI-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YWf6NnoYRHDBoin_unOI-4" value="&lt;div&gt;MenuRecommendInfo recommendItem = recommend.get(index);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;ArrayList&amp;lt;MenuRecommendContentInfo&amp;gt; rContent = recommend.get(index).rContent;&lt;br&gt;VodHPRecGenerator generator一次性绘制一行内容&lt;br&gt;mContainer.addView(generator.generateView());&lt;br&gt;一行内容添加到容器当中&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="540" width="560" height="100" as="geometry"/>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-4" value="&lt;div&gt;MenuRecommendInfo recommendItem = recommend.get(index);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;   &lt;/span&gt;ArrayList&amp;lt;MenuRecommendContentInfo&amp;gt; rContent = recommend.get(index).rContent;&lt;br&gt;VodHPRecGenerator generator一次性绘制一行内容&lt;br&gt;mContainer.addView(generator.generateView());&lt;br&gt;一行内容添加到容器当中&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="540" width="560" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YWf6NnoYRHDBoin_unOI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWf6NnoYRHDBoin_unOI-6" target="YWf6NnoYRHDBoin_unOI-8">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YWf6NnoYRHDBoin_unOI-6" target="YWf6NnoYRHDBoin_unOI-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YWf6NnoYRHDBoin_unOI-6" value="generateView绘制内容&lt;br&gt;initializeDescendant&lt;br&gt;&lt;div&gt;单独单独一个数据&lt;br&gt;View child = createContentView(mContents.get(index), index);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;mContainer.addView(child);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="690" width="300" height="90" as="geometry"/>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-6" value="generateView绘制内容&lt;br&gt;initializeDescendant&lt;br&gt;&lt;div&gt;单独单独一个数据&lt;br&gt;View child = createContentView(mContents.get(index), index);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;   &lt;/span&gt;mContainer.addView(child);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="690" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="YWf6NnoYRHDBoin_unOI-8" value="createContentView&lt;br&gt;设置UI大小：getLayoutParams&lt;br&gt;&lt;br&gt;&lt;div&gt;加载海报与释放海报&lt;br&gt;loadImage&lt;br&gt;releasePoster&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="820" width="220" height="160" as="geometry"/>
+        <mxCell id="YWf6NnoYRHDBoin_unOI-8" value="createContentView&lt;br&gt;设置UI大小：getLayoutParams&lt;br&gt;&lt;br&gt;&lt;div&gt;加载海报与释放海报&lt;br&gt;loadImage&lt;br&gt;releasePoster&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="820" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u0LWheUHy-Hip-WAgsDG-1" target="u0LWheUHy-Hip-WAgsDG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-1" value="原先水平与垂直影响统计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u0LWheUHy-Hip-WAgsDG-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-6" value="水平" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="u0LWheUHy-Hip-WAgsDG-4">
+          <mxGeometry x="-0.2727" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u0LWheUHy-Hip-WAgsDG-2" target="u0LWheUHy-Hip-WAgsDG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-2" value="水平&lt;br&gt;or&lt;br&gt;垂直？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-5" value="隐藏标题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-7" value="显示标题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-10" value="标题" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="410" y="1240" width="70" height="30" as="geometry">
+            <mxRectangle x="410" y="1225" width="160" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-11" value="if(mType == ViewType.VERTICAL){&#xa;			name.setText(content.title);&#xa;		} else {&#xa;			name.setBackgroundColor(Color.TRANSPARENT);&#xa;		}" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="u0LWheUHy-Hip-WAgsDG-10">
+          <mxGeometry y="30" width="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-12" value="兼容" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="410" y="1290" width="60" height="30" as="geometry">
+            <mxRectangle x="410" y="1290" width="160" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-22" value="改为其他模式的话&lt;br&gt;则不会等于垂直&lt;br&gt;&lt;br&gt;则会隐藏标题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="u0LWheUHy-Hip-WAgsDG-12">
+          <mxGeometry y="30" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-23" value="影响布局与海报的大小" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="410" y="1350" width="70" height="30" as="geometry">
+            <mxRectangle x="410" y="1350" width="160" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0LWheUHy-Hip-WAgsDG-24" value="RelativeLayout.LayoutParams portParams = new RelativeLayout.LayoutParams(portW, portH);&#xa;		RelativeLayout.LayoutParams landParams = new RelativeLayout.LayoutParams(landW, landH);&#xa;		return mOrientation == ViewType.VERTICAL ? portParams : landParams;&#xa;&#xa;mOrientation == ViewType.VERTICAL) ? R.drawable.default_poster_390x540&#xa;				: R.drawable.default_poster_544x260;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="u0LWheUHy-Hip-WAgsDG-23">
+          <mxGeometry y="30" width="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
