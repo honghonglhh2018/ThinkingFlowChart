@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-05T08:43:13.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="I5IzRkbqMDHfF_JWLcU6" version="13.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-05T09:46:58.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="Ab4tzXChq5DuFOrKzjUz" version="13.0.7" type="github">
   <diagram id="bJ0etrvi2FlMv_nXDo8n" name="Page-1">
     <mxGraphModel dx="1038" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,7 +18,10 @@
         <mxCell id="RZE5m_pef6XqxR0GKeQx-2" value="Connect Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RZE5m_pef6XqxR0GKeQx-12" value="Connect Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-12" target="RZE5m_pef6XqxR0GKeQx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-12" value="获取到IInterface&lt;br&gt;对象类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZE5m_pef6XqxR0GKeQx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-4" target="RZE5m_pef6XqxR0GKeQx-2">
@@ -38,6 +41,49 @@
         </mxCell>
         <mxCell id="RZE5m_pef6XqxR0GKeQx-10" value="&lt;div&gt;/**&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt; * Cast an IBinder object into an com.sdmc.aidl.ISpeak interface,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt; * generating a proxy if needed.&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt; */&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;public static com.sdmc.aidl.ISpeak asInterface(android.os.IBinder obj) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;if ((obj == null)) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;return null;&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;//相同进程则从本地初始化一个对象&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;android.os.IInterface iin = obj.queryLocalInterface(DESCRIPTOR);&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;if (((iin != null) &amp;amp;&amp;amp; (iin instanceof com.sdmc.aidl.ISpeak))) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;return ((com.sdmc.aidl.ISpeak) iin);&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;//如果不同进程，则取到其代理对象&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;return new com.sdmc.aidl.ISpeak.Stub.Proxy(obj);&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="920" y="-40" width="290" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-18" target="RZE5m_pef6XqxR0GKeQx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-18" value="调用对应方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-20" target="RZE5m_pef6XqxR0GKeQx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-20" value="&lt;div&gt;Proxy对应的方法&lt;/div&gt;&lt;div&gt;@Override&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;public void speak() throws android.os.RemoteException {&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;android.os.Parcel _data = android.os.Parcel.obtain();&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;android.os.Parcel _reply = android.os.Parcel.obtain();&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;try {&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;_data.writeInterfaceToken(DESCRIPTOR);&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;mRemote.transact(Stub.TRANSACTION_speak, _data, _reply, 0);&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;_reply.readException();&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;} finally {&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;_reply.recycle();&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;_data.recycle();&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="420" width="600" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-22" target="RZE5m_pef6XqxR0GKeQx-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="860" />
+              <mxPoint x="240" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-29" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RZE5m_pef6XqxR0GKeQx-28">
+          <mxGeometry x="-0.2727" y="-5" relative="1" as="geometry">
+            <mxPoint x="-4" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-22" value="服务端响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-24" value="&lt;div&gt;@Override&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags)&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;throws android.os.RemoteException {&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;switch (code) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;case INTERFACE_TRANSACTION: {&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;reply.writeString(DESCRIPTOR);&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;return true;&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;case TRANSACTION_speak: {&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;data.enforceInterface(DESCRIPTOR);&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;this.speak();&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;reply.writeNoException();&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;return true;&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;return super.onTransact(code, data, reply, flags);&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="720" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.407;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-30" target="RZE5m_pef6XqxR0GKeQx-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="554" y="1040" />
+              <mxPoint x="554" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-30" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public class Speak extends ISpeak.Stub {&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;private final static String TAG=&quot;Speak&quot;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public Speak() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; LogUtil.d(TAG,&quot;i has been init&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; @Override&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public void speak() throws RemoteException {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int pid = android.os.Process.myPid();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; LogUtil.d(TAG,&quot;current id:&quot;+pid+&quot;-----&quot;+&quot;recevie speak request&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1080" width="490" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
