@@ -1,1 +1,45 @@
-<mxfile host="www.draw.io" modified="2020-04-27T01:41:04.389Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" version="12.9.3" etag="2z09n5zuTiPpwmvMBKcm" type="github"><diagram id="bJ0etrvi2FlMv_nXDo8n">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-05T08:43:13.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="I5IzRkbqMDHfF_JWLcU6" version="13.0.7" type="github">
+  <diagram id="bJ0etrvi2FlMv_nXDo8n" name="Page-1">
+    <mxGraphModel dx="1038" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-1" target="RZE5m_pef6XqxR0GKeQx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-1" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-2" target="RZE5m_pef6XqxR0GKeQx-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-2" value="Connect Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-12" value="Connect Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-4" target="RZE5m_pef6XqxR0GKeQx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-4" value="&lt;div&gt;Intent service&amp;nbsp; = new Intent();&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;ComponentName cn = new ComponentName(service_packageName, Service_className);&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;service.setComponent(cn);&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;context.bindService(service, mConnection, Context.BIND_AUTO_CREATE);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="255" width="570" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-6" target="RZE5m_pef6XqxR0GKeQx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-6" value="private ServiceConnection mConnection = new ServiceConnection() {	&lt;br&gt;&amp;nbsp;@Override	&lt;br&gt;&amp;nbsp;public void onServiceDisconnected(ComponentName name) {	&lt;br&gt;}	&lt;br&gt;&amp;nbsp;@Override		&lt;br&gt;public void onServiceConnected(ComponentName name, IBinder service) {	&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SecurityApi mSecurityApi=SecurityApi.Stub.asInterface(service); &lt;br&gt;};" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="305" y="50" width="560" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZE5m_pef6XqxR0GKeQx-10" target="RZE5m_pef6XqxR0GKeQx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZE5m_pef6XqxR0GKeQx-10" value="&lt;div&gt;/**&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt; * Cast an IBinder object into an com.sdmc.aidl.ISpeak interface,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt; * generating a proxy if needed.&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt; */&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;public static com.sdmc.aidl.ISpeak asInterface(android.os.IBinder obj) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;if ((obj == null)) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;return null;&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;//相同进程则从本地初始化一个对象&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;android.os.IInterface iin = obj.queryLocalInterface(DESCRIPTOR);&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;if (((iin != null) &amp;amp;&amp;amp; (iin instanceof com.sdmc.aidl.ISpeak))) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;return ((com.sdmc.aidl.ISpeak) iin);&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;//如果不同进程，则取到其代理对象&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;return new com.sdmc.aidl.ISpeak.Stub.Proxy(obj);&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-40" width="290" height="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
